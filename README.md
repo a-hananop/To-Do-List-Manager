@@ -1,8 +1,8 @@
 # To-Do-List-Manager
 A simple and interactive command-line To-Do List Manager built with Python to help you organize and keep track of your tasks efficiently.
+
  
 ## Features
-
 - **Add new tasks** with details including:
   - Task description
   - Priority level (High / Medium / Low)
@@ -19,9 +19,33 @@ A simple and interactive command-line To-Do List Manager built with Python to he
 - **Audio feedback** using text-to-speech (`pyttsx3`).
 - Stylish command-line interface with ASCII art headings using `pyfiglet`.
 
+
 ## Installation
 1. Clone the repository or download the script.
 2. Make sure you have Python installed (version 3.6 or higher recommended).
 3. Install the required Python packages:
+
    ```bash
    pip install pyttsx3 pyfiglet
+
+
+## Usage 
+Run the script using:
+    
+    python ToDoList.py
+
+Follow the on-screen prompts to add, view, update, delete, or filter your tasks.
+Tasks are automatically saved to tasks.txt. You can also manually save anytime using the menu option.
+
+
+## How it works
+On startup, the program loads existing tasks from tasks.txt if available.
+You interact with the menu by entering the number of the desired action.
+Tasks are stored in the format:
+
+    task description | done (True/False) | priority | due date
+
+The program handles invalid inputs gracefully and provides audio cues for feedback.
+
+
+
