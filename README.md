@@ -48,4 +48,19 @@ Tasks are stored in the format:
 The program handles invalid inputs gracefully and provides audio cues for feedback.
 
 
+## Example Menu 
+
+    ===== To-Do List =====
+    1. Add Task
+    2. View All Tasks
+    3. Mark Task as Done
+    4. Delete Task
+    5. View Completed Tasks
+    6. View Incomplete Tasks
+    7. View Tasks by Priority
+    8. View Tasks Due Today
+    9. View Overdue Tasks
+    11. Save Tasks
+    0. Save and Exit
+
 
