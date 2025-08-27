@@ -2,6 +2,7 @@
 A simple and interactive command-line To-Do List Manager built with Python to help you organize and keep track of your tasks efficiently.
  
 ## Features
+
 - **Add new tasks** with details including:
   - Task description
   - Priority level (High / Medium / Low)
