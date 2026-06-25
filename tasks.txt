@@ -1,0 +1,8 @@
+Data Types | True | High | 2025-08-08
+Variables | True | Medium | 2025-08-14
+Operators | True | Medium | 2025-08-10
+Conditional Statements | True | High | 2025-08-15
+Functions | True | High | 2025-08-18
+Loops | True | High | 2025-08-20
+Exception Handling | True | High | 2025-08-22
+File Handling | True | High | 2025-08-25
